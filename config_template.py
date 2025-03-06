@@ -3,8 +3,8 @@
 # SMTP 配置
 SMTP_SERVER = "smtp.qq.com"  # SMTP 服务器地址
 SMTP_PORT = 465  # SMTP 服务器端口
-SMTP_USER = "your_email@qq.com"  # 你的邮箱地址
-SMTP_PASSWORD = "your_smtp_password"  # 你的 SMTP 密码
+SMTP_USER = "189124607@qq.com"  # 你的邮箱地址
+SMTP_PASSWORD = "hhrfemczmerwbgbd"  # 你的 SMTP 密码
 CSV_FILE_PATH = 'user_data.csv'  # CSV文件路径
 log_file_path = '.\\homeworks'  # log文件路径
 SECRET_KEY = "一般密码不填错就用不上(?而且需要配合订阅前端使用" # 用于发送修改订阅密码邮件时生成token的AES密钥
@@ -20,7 +20,7 @@ BASE_URL = "http://123.121.147.7:88/ve"
 # 其他与 SMTP 相关的配置
 MAIL_SMTP_MODE = "smtp"  # 邮件发送模式，使用 SMTP
 MAIL_SENDMAIL_MODE = "smtp"  # 邮件发送方式，使用 SMTP
-MAIL_FROM_ADDRESS = "your_email_id"  # 发件人信息，qq邮箱写q号就行
+MAIL_FROM_ADDRESS = "189124607"  # 发件人信息，qq邮箱写q号就行
 MAIL_DOMAIN = "qq.com"  # 邮件域名
 MAIL_SMTP_AUTH = True  # 是否启用 SMTP 认证
 MAIL_SMTP_SECURE = "ssl"  # SMTP 加密方式，使用 SSL
